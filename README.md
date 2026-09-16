@@ -4,7 +4,7 @@ El notebook [main.ipynb](main.ipynb) desarrolla un modelo base de supervivencia 
 
 ## Ejecución en Google Colab
 
-[Abre el notebook en Colab](https://colab.research.google.com/github/memo124/Laboratorio_IA_etica/blob/main/main.ipynb) y ejecuta las celdas en orden. Las librerías utilizadas están incluidas en Colab.
+[Abre el notebook en Colab](https://colab.research.google.com/github/memo124/Laboratorio_IA_etica/blob/main/main.ipynb) y ejecuta las celdas en orden. La primera celda de código instala las dependencias adicionales para el encoding y la búsqueda con Optuna.
 
 El notebook lee `train.csv` desde el directorio de trabajo; si no existe, lo descarga desde el dataset público de Data Science Dojo y guarda una copia en el entorno de ejecución.
 
