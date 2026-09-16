@@ -1,4 +1,4 @@
-# Laboratorio de IA ética
+# Feature Engineering: Selección y creación de variables predictoras
 
 El notebook [main.ipynb](main.ipynb) desarrolla un modelo base de supervivencia del Titanic con un pipeline de preprocesamiento y Random Forest.
 
