@@ -8,4 +8,4 @@ El notebook [main.ipynb](main.ipynb) desarrolla un modelo base de supervivencia 
 
 El notebook lee `train.csv` desde el directorio de trabajo; si no existe, lo descarga desde el dataset público de Data Science Dojo y guarda una copia en el entorno de ejecución.
 
-Los datos se dividen en entrenamiento (60 %), validación (20 %) y prueba (20 %). El preprocesamiento se ajusta solo con entrenamiento y el modelo se evalúa sobre validación; prueba queda reservado para una evaluación final posterior.
+Los datos se dividen en entrenamiento (60 %), validación (20 %) y prueba (20 %). Los experimentos y Optuna aprenden sus transformaciones solo con entrenamiento y se comparan en validación. Al final, se reentrenan Baseline, combinación y optimizado con entrenamiento + validación, y se evalúan sobre el mismo conjunto de prueba sin cambiar parámetros después. La conclusión se genera a partir de las métricas calculadas.
